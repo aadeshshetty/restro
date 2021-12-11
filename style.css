@@ -1,0 +1,188 @@
+body{
+    font-size: 15px;
+    color: #fff;
+    background-color: #61122f;
+}
+#header-nav{
+    background-color: #ffc107 !important;
+    border-radius: 0;
+    border: 0;
+}
+#header-nav button.navbar-toggler{
+    clear:both;
+    margin-top: -20px;
+}
+.container-fluid{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.navbar-brand a{
+    padding-top: 25px;
+}
+.navbar-brand img{
+    float:left;
+}
+.navbar-brand h1{
+    text-shadow: 1px 1px 1px #222;
+    font-family:"Courier New",monospace;
+    text-transform: uppercase;
+    margin-top: 35px;
+    color: rgb(145, 5, 5);
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: .75;
+    float: left;
+}
+button{
+    background-size: contain;
+    background-blend-mode:overlay;
+    margin-left: 6em;
+}
+.dropdown-menu{
+    background-color: #ffc107;
+}
+.navbar-nav{
+    margin-top: 10px;
+}
+.navbar-nav a{
+    color: rgb(145, 5, 5);
+    text-align: center;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-content:center;
+}
+.navbar-nav a:hover{
+    background: #e27004;
+}
+.navbar-nav a i{
+    font-size: 1.8em;
+}
+.dropdown-menu a{
+    text-align: center;
+}
+.dropdown-menu a i{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.bigc{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.jumbotron .img-fluid{
+    height: 558px;
+    width: 150%;
+    box-shadow: 0 0 40px #3f0c1f;
+    border: 2px solid #3f0c1f;
+    margin-bottom: 10px;
+}
+#menu-tile, #specials-tile, #map-tile{
+    height: 220px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border:2px solid #3f0c1f;
+    overflow: hidden;
+    background: url("../images/174724.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+.panel-footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #222;
+    border-top: 0;
+    text-align: center;
+}
+.panel-footer section{
+    font-style: italic;
+}
+.panel-footer span{
+    font-size: 1.4em;
+    font-weight: bold;
+    font-style: normal;
+}
+@media (min-width: 992px){
+    #menu-tile, #specials-tile, #map-tile{
+        background-size: 100%;
+        margin: 0;
+    }
+}
+@media (max-width:991px){
+    .navbar-nav .nav-item{
+        text-align: start;
+    }
+    .navbar-nav a i{
+        font-size: 1em;
+        margin-right: 5px;
+        align-content: center;
+    }
+    .fa-utensils:before{
+        margin-right: 0.4vw;
+    }
+}
+@media (max-width: 767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 50px;
+    }
+    .navbar-brand h1{
+        font-size: 5vw;
+        margin-top: 2vw;
+    }
+    .navbar-toggler{
+        font-size: 1em;
+    }
+   .navbar-nav .nav-item{
+       margin-bottom: 10px;
+   }
+    .navbar-nav a i{
+        display: none;
+    }
+    #main-content img{
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .jumbotron .img-fluid{
+        height: auto;
+        width: auto;
+        box-shadow: 0 0 20px #3f0c1f;
+        border: 1px solid #3f0c1f;
+    }
+    #menu-tile, #specials-tile, #map-tile{
+        height: 220px;
+        background-size: 100%;
+    }
+    .panel-footer{
+        text-align: center;
+        line-height: 2;
+    }
+}
+@media (min-width:426px) and (max-width: 576px){
+    #main-content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+}
